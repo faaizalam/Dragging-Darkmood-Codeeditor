@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* .grid {
+  display: grid;
+  grid-area: "header main footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+}
+
+.maincalcu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100vh;
+}
+
+.call {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: 5rem 1fr;
+}
+
+.spans {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1/-1;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.output .previosoperand {
+  color: white;
+}
+
+.output .currentoperand {
+  color: rgb(240, 229, 229);
+  font-size: 2.5rem;
+}
+
+.call > button:hover, .call > button:focus {
+  background-color: rgb(9, 129, 235) !important;
+}# sourceMappingURL=index.css.map */
+.editor-container{
+  flex-grow: 1;
+  margin: 5px;
+}
+.collaps{
+  flex-grow: 0;
+  /* margin: 5px; */
+}
+.collaps .code-mirror-wrapper{
+  position: absolute;
+  overflow: hidden !important;
+}
+.pan.top-pan {
+  display: flex;
+  color: white;
+  width: 100%;
+  background-color: rgb(34, 33, 33);
+}
+.editor-title{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border: 2px solid rgb(59, 56, 56);
+  padding: 5px;
+}
